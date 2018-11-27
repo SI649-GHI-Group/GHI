@@ -1,0 +1,17 @@
+div.left_text{
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    background: black;
+}
+
+div.left_text p{
+    color: white;
+}
+
+div.right_changingCharts{
+    display: inline-block;
+    width: 66%;
+    height: 100%;
+    background: blue;
+}
