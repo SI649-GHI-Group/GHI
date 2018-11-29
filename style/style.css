@@ -1,3 +1,7 @@
+div{
+
+}
+
 div.left_text{
     display: inline-block;
     width: 33%;
@@ -5,13 +9,29 @@ div.left_text{
     background: black;
 }
 
-div.left_text p{
+div.left_text p, h2{
     color: white;
 }
 
+div.textBlock{
+  height: 100vh;
+  display: table;
+  padding: 0 1.5vw;
+}
+
+div.textBlock .textBlock_verticalAlign{
+  vertical-align: middle;
+  display: table-cell;
+}
+
+
+
+
+
 div.right_changingCharts{
     display: inline-block;
+    position: fixed;
     width: 66%;
-    height: 100%;
-    background: blue;
+    height: 100vh;
+    background: lightgrey;
 }
